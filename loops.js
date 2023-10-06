@@ -4,9 +4,9 @@
 
 //how 
 
-for (expression 1; expression 2; expression 3) {
+//for (expression 1; expression 2; expression 3) {
     // code block to be executed
-  }
+  //}
 //Expression 1 is executed (one time) before the execution of the code block.
 
 //Expression 2 defines the condition for executing the code block.
@@ -18,3 +18,12 @@ for (expression 1; expression 2; expression 3) {
 for (let i = 0; i < 5; i++) {
     text += "The number is " + i + "<br>";
   }
+
+  function addNumbers (num1 ,num2)
+{
+  return num1 + num2;
+}
+console.log(addNumbers(1,2));
+
+  //let use git to track our code changes
+  
