@@ -14,6 +14,7 @@ joshy= "lucas";
  document.write(joshy);
 }
 
+
 {
     const x=5 ,y=5;
     const  z= x+y;
