@@ -1,26 +1,25 @@
-//here we can talk about the CONDITION 
-
-//Oky let start 
-//Example 1 
-
-//if statement
-// here is to execute the block of code if the condItion TRUE BAS
-if (contition){
-    //code to be executed if the consdition is true 
+// if statement
+let age = 18;
+if (age >= 18) {
+  console.log("You are an adult");
 }
 
-//if else statement
-if (contition){
-    //code to be executed if the consdition is true 
-} else{
-    //code to be executed is the condton is false 
+// if else statement
+let isRaining = true;
+if (isRaining) {
+  console.log("Remember to bring an umbrella");
+} else {
+  console.log("No need for an umbrella today");
 }
 
-//else if   
-if (contition1){
-    //code to be executed if the consdition1 is true 
-} else if (contition2){
-    //code to be executed if the consdition2 is true 
-}else{
-    //code to be executed if the the condtion this false 
+// else if statement
+let score = 85;
+if (score >= 90) {
+  console.log("You got an A");
+} else if (score >= 80) {
+  console.log("You got a B");
+} else if (score >= 70) {
+  console.log("You got a C");
+} else {
+  console.log("You need to study harder");
 }
