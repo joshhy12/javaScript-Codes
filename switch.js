@@ -1,18 +1,26 @@
-let day = 2;
-let dayName;
 
-switch (day) {
+let day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
   case 1:
-    dayName = "monday";
+    day = "Monday";
     break;
   case 2:
-    dayName = "tuesday";
+    day = "Tuesday";
     break;
   case 3:
-    dayName = "Wesday";
+    day = "Wednesday";
     break;
-
-  default:
-    dayName = "Unknown!";
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
 }
-console.log(dayName);
+document.getElementById("demo").innerHTML = "Today is " + day;
+

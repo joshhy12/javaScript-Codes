@@ -17,7 +17,7 @@ Variables declared with let cannot be Redeclared in the same scope
 <p id="demo"></p>
 
 <script>
-var  x = 10;
+var x = 10;
 // Here x is 10
 
 {  
@@ -30,4 +30,6 @@ document.getElementById("demo").innerHTML = x;
 </script>
 
 </body>
+</html>
+
 </html>

@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-<head>
-  <title>Run JavaScript in Browser</title>
-</head>
+
 <body>
-  <script>
-    // if statement
-    let age = 18;
-    if (age >= 18) {
-      console.log("You are an adult");
-    }
 
-    // if else statement
-    let isRaining = true;
-    if (isRaining) {
-      console.log("Remember to bring an umbrella");
-    } else {
-      console.log("No need for an umbrella today");
-    }
+<h2>JavaScript if .. else</h2>
 
-    // else if statement
-    let score = 85;
-    if (score >= 90) {
-      console.log("You got an A");
-    } else if (score >= 80) {
-      console.log("You got a B");
-    } else if (score >= 70) {
-      console.log("You got a C");
-    } else {
-      console.log("You need to study harder");
-    }
-  </script>
+<p>A time-based greeting:</p>
+
+<p id="demo"></p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
 </body>
 </html>

@@ -6,21 +6,14 @@ A JavaScript program is a list of programming statements.
 
 */
 
-let day = 3;
-let dayName;
 
-switch (day) {
-  case 1:
-    dayName = "monday";
-    break;
-  case 2:
-    dayName = "tuesday";
-    break;
-  case 3:
-    dayName = "Wesday";
-    break;
-
-  default:
-    dayName = "Unknown!";
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
 }
-console.log(dayName);
+document.getElementById("demo").innerHTML = greeting;
