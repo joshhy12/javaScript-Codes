@@ -7,7 +7,7 @@ This is a JavaScript project that demonstrates various concepts and features of 
 To get started with this project, simply clone the repository and open the HTML files in your web browser.
 
 
-git clone https://github.com/your-username/js-project.git
+git clone https://github.com/joshhy12/js-project.git
 cd js-project
 open index.html
 
