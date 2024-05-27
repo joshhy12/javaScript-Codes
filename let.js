@@ -10,26 +10,24 @@ Variables declared with let cannot be Redeclared in the same scope
 
 
 <html>
-<body>
+    <body>
 
-<h2>Redeclaring a Variable Using let</h2>
+        <h2>Redeclaring a Variable Using let</h2>
 
-<p id="demo"></p>
+        <p id="demo"></p>
 
-<script>
-let x = 10;
-// Here x is 10
+        <script>
+            let x = 10;
+            // Here x is 10
 
-{  
-let y = 2; 
+            {
+                let y = 2;
 // Here y is 2
 }
 
-// Here x is 10
-document.getElementById("demo").innerHTML = x;
-</script>
+            // Here x is 10
+            document.getElementById("demo").innerHTML = x;
+        </script>
 
-</body>
-</html>
-
+    </body>
 </html>
