@@ -9,25 +9,21 @@ Variables declared with let cannot be Redeclared in the same scope
 */
 
 
+
 <html>
-    <body>
+<body>
 
-        <h2>Redeclaring a Variable Using let</h2>
+<h2>JavaScript Math.log10()</h2>
 
-        <p id="demo"></p>
+<p>Math.log10() returns the base 10 logarithm of a number.</p>
+<p>How many times must we multiply 10 to get 1000?</p>
 
-        <script>
-            let x = 10;
-            // Here x is 10
+<p id="demo"></p>
 
-            {
-                let y = 2;
-// Here y is 2
-}
+<script>
+document.getElementById("demo").innerHTML = Math.log10(1000);
+</script>
 
-            // Here x is 10
-            document.getElementById("demo").innerHTML = x;
-        </script>
-
-    </body>
+</body>
 </html>
+
